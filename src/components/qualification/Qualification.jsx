@@ -14,7 +14,7 @@ const Qualification = () => {
 
         <div className="qualification__container container">
             <div className="qualification__tabs">
-                <div 
+                <div
                     className={
                             toggleState === 1 
                                 ? "qualification__button qualification__active button--flex" :

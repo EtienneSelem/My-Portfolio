@@ -4,6 +4,7 @@ import "./header.css";
 const Header = () => {
     /* ============ Toggle Menu =============== */
     const[Toggle, showMenu] = useState(false);
+    const[Toglle, showBackground] =useState(true)
       
   return (
     <header className="header">
@@ -60,7 +61,6 @@ const Header = () => {
             <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
                 <i class="uil uil-apps"></i>
             </div>
-
         </nav>
     </header>
   )
