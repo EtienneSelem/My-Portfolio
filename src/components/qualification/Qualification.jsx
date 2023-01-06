@@ -10,7 +10,7 @@ const Qualification = () => {
   return (
     <section className='qualification section'>
         <h2 className='section__title'>Qualification</h2>
-        <span className='section__subtitle'>My personel journey</span>
+        <span className='section__subtitle'>Mon parcours personnel</span>
 
         <div className="qualification__container container">
             <div className="qualification__tabs">
@@ -50,11 +50,11 @@ const Qualification = () => {
                  >
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Web Design</h3>
-                            <span className="qualification__subtitle">Spain - Institute</span>
+                            <h3 className="qualification__title">Desktop Developpeur</h3>
+                            <span className="qualification__subtitle">Université de Kinshasa</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt">
-                                </i>2021 - Present
+                                </i>2017 - Present
                             </div>
                         </div>
 
@@ -74,22 +74,22 @@ const Qualification = () => {
                             <span className="qualification__line"></span>
                         </div>
                         <div>
-                            <h3 className="qualification__title">Art Director</h3>
-                            <span className="qualification__subtitle">Spain - Institute</span>
+                            <h3 className="qualification__title">Architecte Logiciel</h3>
+                            <span className="qualification__subtitle">Orange Digital Center</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt">
-                                </i>2020 - 2021
+                                </i>2022 - à ce jour
                             </div>
                         </div>
                     </div>
 
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Web Developpement</h3>
-                            <span className="qualification__subtitle">Spain - Institute</span>
+                            <h3 className="qualification__title">Web et Mobile Developpement</h3>
+                            <span className="qualification__subtitle">Orange Digital Center</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt">
-                                </i>2018 - 2020
+                                </i>2022 - à ce jour
                             </div>
                         </div>
 
