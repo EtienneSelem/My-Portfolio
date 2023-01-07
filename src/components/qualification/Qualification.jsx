@@ -50,7 +50,7 @@ const Qualification = () => {
                  >
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Desktop Developpeur</h3>
+                            <h3 className="qualification__title">Génie Informatique</h3>
                             <span className="qualification__subtitle">Université de Kinshasa</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt">
@@ -110,7 +110,7 @@ const Qualification = () => {
                         </div>
                         <div>
                             <h3 className="qualification__title">UX Expert</h3>
-                            <span className="qualification__subtitle">Spain - Institute</span>
+                            <span className="qualification__subtitle">Orange Digital Center</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt">
                                 </i>2019 - 2022
@@ -126,8 +126,8 @@ const Qualification = () => {
                     }>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Product Design</h3>
-                            <span className="qualification__subtitle">Microsoft -Spain</span>
+                            <h3 className="qualification__title">PenTesteur de Système d'information</h3>
+                            <span className="qualification__subtitle">Shady Corporation</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt">
                                 </i>2021 - Present
