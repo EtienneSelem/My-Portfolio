@@ -130,7 +130,12 @@
   }
   
   @media screen and (max-width: 576px) {
-    
+    .contact__info {
+        grid-template-columns: 1fr;
+    }
+    .contact__form {
+        width: 100%;
+    }
   }
   
   /* For small devices */
