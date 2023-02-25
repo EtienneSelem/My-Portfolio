@@ -9,11 +9,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm('service_n874rmr', 'template_zde9ha4', form.current, 'lohmEswFXHPHJXZBk')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+     e.target.reset()
   };
 
   return (
