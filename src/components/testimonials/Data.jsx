@@ -7,13 +7,13 @@ export const Data = [
     {
         id: 1,
         image: Image1,
-        title: "John Doe",
+        title: "Sandrine Mobunge",
         description: "lorem fizjfunvjvj svisvbquhsvqijnvh",
     },
     {
         id: 2,
         image: Image2,
-        title: "Jean Jacques",
+        title: "Jean Jacques Mayinza",
         description: "qfdfiqjdshfuqsduvhb qsvhishviojqnsivjoqisjvo qidnihb sqodvjoij",
     },
     {
