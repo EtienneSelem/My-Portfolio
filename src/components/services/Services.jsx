@@ -19,7 +19,7 @@ const Services = () => {
                 <div>
                     <i className="uil uil-web-grid services__icon"></i>
                     <h3 className="services__title">
-                        Product <br /> Designer
+                        Concepteur <br /> des Produits
                     </h3>
                 </div>
                 <span className="services__button" onClick={() =>toggleTab(1)}>Voir plus <i className="uil uil-arrow-right services__button-icon">
@@ -29,45 +29,44 @@ const Services = () => {
                         <div className="services__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-                            <h3 className="services__modal-title">Product Designer</h3>
+                            <h3 className="services__modal-title">Concepteur des Produits</h3>
                             <p className="services__modal-description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolore nihil,
-                                 et exercitationem distinctio velit quo dolorum iure commodi repudiandae, quisquam
-                                  saepe omnis necessitatibus fugiat eum, soluta eaque. Sint, officiis!
+                                Je resoud les problèmes inhérants à la conception d'un produit dont il supervise toute la durée de vie.
+                                D'où la conception est faite à la lumière des objectifs commerciaux et des contraintes budgétaires d'une entreprise...
                             </p>
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        I develop the user interface
+                                        Je maitrise les logiciels de conception et modelisation d'un SI
                                     </p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Web page development
+                                        Respect des normes de qualité de la modélisation
                                     </p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                       I create UX element interactions
+                                       J'adopte les méthodes et outils de résolution de problème
                                     </p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        I position your company brand
+                                        Je position la marque de votre entreprise
                                     </p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Design and mockupsof products for companies
+                                        Conception, developpement et maquettage de produits de votre entreprise 
                                     </p>
                                 </li>
                             </ul>
