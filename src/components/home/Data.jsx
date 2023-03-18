@@ -55,7 +55,7 @@ const Data = () => {
             </svg>
         </h1>
 
-        <h3 className="home__subtitle">Developer FullStack</h3>
+        <h3 className="home__subtitle">Developpeur Web, Mobile et Créateur des solutions numeriques</h3>
         <p className='home_description'>
             Je suis developpeur des application mobile, web et desktop en utilisant les technologies à la pointe, exercant ses activités à Kinshasa DRC
         </p>

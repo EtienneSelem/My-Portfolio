@@ -15,7 +15,7 @@ const About = () => {
                 <Info />
 
                 <p className="about__description">
-                    FullSatck developper, Je cree de pages web avec UI / UX interface
+                    Developpeur web et mobile, Je cree de pages web avec UI / UX interface
                     utilisateur, Je donne le meilleur de moi meme afin de satisfaire à mes clients
                     sur base des travaux qui me sont confié, et le comble de tout est que la 
                     majorité de mes clients sont toujours satisfaits du resultat que je leur
