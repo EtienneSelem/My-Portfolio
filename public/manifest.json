@@ -1,5 +1,5 @@
 {
-  "short_name": "React App",
+  "short_name": "Etienne Selemani",
   "name": "Create React App Sample",
   "icons": [
     {
@@ -8,8 +8,8 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
+      "src": "fff.jpg",
+      "type": "image/jpg",
       "sizes": "192x192"
     },
     {
