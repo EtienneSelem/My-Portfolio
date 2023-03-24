@@ -7,6 +7,17 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    
+    //Recupere les champs du formulaire
+    const name = form.current.name.value.trim();
+    const email = form.current.email.value.trim();
+    const message = form.current.message.value.trim();
+
+    //Verifier si les champs requis sont remplis
+    if(!name || !email || !message){
+      alert("Veuillez remplir tout les champs !");
+      return;
+    }
 
     emailjs.sendForm(
       "service_n874rmr",
@@ -94,6 +105,8 @@ const Contact = () => {
                 name="name"
                 className="contact__form-input"
                 placeholder="Inserer votre nom"
+                id="name"
+                required
               />
             </div>
 
@@ -104,6 +117,8 @@ const Contact = () => {
                 name="email"
                 className="contact__form-input"
                 placeholder="Inserer votre email"
+                id="email"
+                required
               />
             </div>
 
@@ -115,6 +130,8 @@ const Contact = () => {
                 rows="10"
                 className="contact__form-input"
                 placeholder="Ecrire votre projet"
+               id="message"
+               required
               ></textarea>
             </div>
 
